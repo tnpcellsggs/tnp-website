@@ -6,21 +6,21 @@ export default function Hero() {
   return (
     <>
       <Container id="hero" fluid>
-        {/* <div className="inst-name">
+        <div className="inst-name">
           <p>
             Shri Guru Gobind Singhji Institute of Engineering and Technology,
             Nanded
           </p>
-        </div> */}
+        </div>
         <Container className="hero-list" md={2}>
           <Stack gap={2} className="main">
             {/* <Button className='cus-btn'><Link className="btn-inside" to="/stlogin">Student</Link> </Button> */}
             {/* <Button className='cus-btn'>Recruiter</Button> */}
-            <Link to="/admin/signin/">
+            {/* <Link to="/admin/signin/">
               <Button style={{ width: "200px" }} className="cus-btn">
                 Admin Login
               </Button>
-            </Link>
+            </Link> */}
             {/* <Button className='cus-btn'>Current Drives</Button> */}
             {/* <Button className='cus-btn'>Internship</Button> */}
           </Stack>

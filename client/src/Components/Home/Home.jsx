@@ -9,6 +9,7 @@ import Counts from "./Counts";
 import Whyus from "./Why-us";
 import Departments from "./Departments";
 import Placements from "./Placements/Placements";
+import Events from "./Events/Events";
 import AboutInfo from "./AboutInfo"; //About
 import Director from "./Director";
 import Recruiters from "./Recruiters";
@@ -98,6 +99,7 @@ export default function Home() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/placements" element={<Placements />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>

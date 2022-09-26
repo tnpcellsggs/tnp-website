@@ -46,6 +46,7 @@ function AdminSignin() {
       setPassword("");
       setIsAdminLoggedIn(true);
     } catch (err) {
+      console.log(err);
       switch (err.response.status) {
         case 404:
           setErrorMsg("User not found. Please enter a valid username.");

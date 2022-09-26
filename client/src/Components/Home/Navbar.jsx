@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import TNPLogo from "../../img/TNP LOGO.png";
-// import SGGSLogo from '../img/sggs.png';
+import SGGSLogo from "../../img/sggs.png";
 
 const isLoggedIn = true;
 const username = "User";
@@ -40,11 +40,13 @@ const LoginButton = () => {
 export default function Navbar() {
   return (
     <>
-      <BSNavbar class="navbar" bg="light" sticky="top">
+      <BSNavbar className="navbar" bg="light" sticky="top">
         <Container>
           <BSNavbar.Brand id="navbar-brand" href="/">
-            <img className="logo-img" src={TNPLogo} />
+            <img className="logo-img" src={SGGSLogo} alt="" />
             <span className="divider"></span>
+            <img className="logo-img" src={TNPLogo} alt="" />
+            &nbsp;
             <div className="logo-text">
               TRAINING & PLACEMENT <br /> SGGSIE&T, NANDED
             </div>
@@ -52,27 +54,22 @@ export default function Navbar() {
         </Container>
         <Container>
           <Nav className="desktop-navmenu ms-auto">
-            <Nav.Link id="navlink" href="#">
-              <Link id="navlink" to="/">
-                Home
-              </Link>
-            </Nav.Link>
+            <Link id="navlink" to="/">
+              Home
+            </Link>
             {/* <Nav.Link id="navlink" href="#">Events</Nav.Link> */}
-            <Nav.Link id="navlink" href="#">
-              <Link id="navlink" to="/placements">
-                Placements
-              </Link>
-            </Nav.Link>
-            <Nav.Link id="navlink" href="#">
-              <Link id="navlink" to="/aboutus">
-                About Us
-              </Link>
-            </Nav.Link>
-            <Nav.Link id="navlink" href="#">
-              <Link id="navlink" to="/contactus">
-                Contact Us
-              </Link>
-            </Nav.Link>
+            <Link id="navlink" to="/placements">
+              Placements
+            </Link>
+            <Link id="navlink" to="/events">
+              Events
+            </Link>
+            <Link id="navlink" to="/aboutus">
+              About Us
+            </Link>
+            <Link id="navlink" to="/contactus">
+              Contact Us
+            </Link>
             {/* <Nav.Link id="navlink" href="#">
               <Link id="navlink" to="contactus" smooth duration={500}>
                 <LoginButton />
@@ -86,12 +83,19 @@ export default function Navbar() {
             className="mobile-navmenu ms-auto"
             drop="start"
           >
-            <NavDropdown.Item href="/">
-              <Link to="/">Home</Link>
+            <NavDropdown.Item>
+              <Link id="navlink" to="/">
+                Home
+              </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>
               <Link id="navlink" to="/placements">
-                <span style={{ color: "#000" }}>Placements</span>
+                Placements
+              </Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link id="navlink" to="/events">
+                Events
               </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>

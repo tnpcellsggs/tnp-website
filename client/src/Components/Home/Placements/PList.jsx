@@ -1,5 +1,14 @@
 import React from "react";
-import { y1415, y1516, y1617, y1718, y1819, y1920 } from "./PData.jsx";
+import {
+  y1415,
+  y1516,
+  y1617,
+  y1718,
+  y1819,
+  y1920,
+  y2021,
+  y2122,
+} from "./PData.jsx";
 import { Container } from "react-bootstrap";
 
 import YearData from "./YearData";
@@ -18,6 +27,8 @@ export default function PList() {
         <YearData label="2017-2018" senddata={y1718} />
         <YearData label="2018-2019" senddata={y1819} />
         <YearData label="2019-2020" senddata={y1920} />
+        <YearData label="2020-2021" senddata={y2021} />
+        <YearData label="2021-2022" senddata={y2122} />
       </Container>
     </>
   );
