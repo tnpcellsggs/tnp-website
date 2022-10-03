@@ -137,7 +137,7 @@ export default function Footer() {
                   icon={faEnvelopeOpen}
                 />
                 <div className="ci-cell-div">
-                  <a href="mail to:tnpcell@sggs.ac.in">tnpcell@sggs.ac.in</a>
+                  <a href="mailto:tpo@sggs.ac.in">tpo@sggs.ac.in</a>
                 </div>
               </div>
             </Stack>

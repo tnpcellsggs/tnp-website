@@ -13,7 +13,7 @@ import Events from "./Events/Events";
 import AboutInfo from "./AboutInfo"; //About
 import Director from "./Director";
 import Recruiters from "./Recruiters";
-import Contact from "./Contact"; //Contact
+import NewTeam from "./NewTeam"; //NewTeam
 import Team from "./Team";
 import Graph from "./Graph";
 // import Charts from "./Charts";
@@ -27,9 +27,9 @@ const Homepage = () => {
 
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Achievements />
-      <Counts />
+      {/* <Counts /> */}
       <Whyus />
       <Departments />
     </>
@@ -51,6 +51,7 @@ const AboutUs = () => {
       <center>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://drive.google.com/file/d/1Zk4T5Bw7Y8TC5bX43BwRH6hP6PB7fG3F/view?usp=sharing"
         >
           <button
@@ -82,7 +83,7 @@ const ContactUs = () => {
   return (
     <>
       <h1 class="homepage-headings">Contact Us</h1>
-      <Contact />
+      <NewTeam />
       <Team />
     </>
   );

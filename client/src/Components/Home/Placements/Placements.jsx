@@ -12,9 +12,6 @@ const PTable = () => {
           <th>Year</th>
           <th>BTech on roll</th>
           <th>BTech placed</th>
-          <th>MTech on roll</th>
-          <th>MTech placed</th>
-          <th>Total placed</th>
           <th>Average Package (LPA)</th>
           <th>Package Range (LPA)</th>
         </tr>
@@ -24,9 +21,6 @@ const PTable = () => {
               <td>{i["Year"]}</td>
               <td>{i["BTech on roll"]}</td>
               <td>{i["BTech placed"]}</td>
-              <td>{i["MTech on roll"]}</td>
-              <td>{i["MTech placed"]}</td>
-              <td>{i["Total placed"]}</td>
               <td>{i["Average Package (LPA)"]}</td>
               <td>{i["Package Range (LPA)"]}</td>
             </tr>

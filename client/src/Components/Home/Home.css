@@ -210,14 +210,59 @@
 }
 
 /* ACHIEVEMENTS */
-.ach-text h3 {
+.home-ach-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../img/bg1.jpg") center center;
+}
+
+.home-posters {
+  width: 100vw;
+}
+
+.home-ach {
+  font-family: var(--muli);
+  color: #fff;
+  padding: 20px;
+}
+
+.home-ach .italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.home-ach ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-ach ul .check-icon {
+  color: var(--primary-blue);
+}
+
+.home-ach ul li {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-ach-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .home-posters {
+    width: 280vw;
+  }
+}
+
+/* .ach-text h3 {
   color: var(--primary-blue);
   font-family: "Roboto";
 }
 
 .italic {
-  font-style: italic;
-  font-weight: bold;
 }
 
 .ach-text {
@@ -235,7 +280,7 @@
 
 .ach-text ul li {
   padding-bottom: 10px;
-}
+} */
 
 /* COUNTS */
 .counterNum {
@@ -475,6 +520,7 @@ td {
 .p-collapsible {
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 95vw;
 }
 
 .p-collapsible button {
@@ -503,6 +549,12 @@ td {
   border-top: unset;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .p-collapsible {
+    width: 50vw;
+  }
 }
 
 /* ABOUT INFO */
@@ -629,22 +681,42 @@ td {
 }
 
 /* CONTACT */
+.head-container {
+  position: relative;
+}
+
+.head-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.head-bg img {
+  width: 400px;
+}
+
+.head-bg-one {
+  top: -200px;
+  left: -200px;
+}
+
+.head-bg-two {
+  display: none;
+}
+
 .contact {
   padding: 20px;
 }
 
 .contact-main {
   background-color: #fff;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
   padding: 20px;
-  border-radius: 50px;
   box-shadow: 0px 0px 16px #bbb;
   width: 80%;
 }
 
 .contact-main img {
-  border-radius: 100%;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -675,8 +747,20 @@ td {
 }
 
 @media only screen and (min-width: 768px) {
+  .head-bg img {
+    width: 800px;
+  }
+  .head-bg-one {
+    top: -100px;
+    left: 0px;
+  }
+  .head-bg-two {
+    display: block;
+    right: 0px;
+    bottom: -100px;
+  }
   .contact-main {
-    width: 60%;
+    width: 50%;
   }
   .contact-main img {
     margin-bottom: 0;
@@ -694,6 +778,99 @@ td {
 }
 
 /* TEAM */
+.st-team {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.st-team-card {
+  background-color: #111;
+  border-radius: 8px;
+  display: flex;
+  width: 220px;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.st-team-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.st-team-card h3 {
+  font-size: 20px;
+  margin-top: 8px;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-blue);
+}
+
+.st-team-card h4 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: var(--anek);
+}
+
+.st-team-card a {
+  color: var(--primary-blue);
+}
+
+.st-team-card .team-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.st-team-container {
+  display: grid;
+  width: 75%;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.st-team-group {
+  border: dashed 4px #fff;
+  margin: 16px;
+}
+
+.st-team-group h3 {
+  text-align: center;
+  padding: 8px;
+}
+
+.st-team-contents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.st-team-2x {
+  grid-column-start: auto;
+}
+
+@media only screen and (min-width: 786px) {
+  .st-team-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .st-team-2x {
+    grid-column-start: span 2;
+  }
+  .st-team-contents {
+    flex-direction: row;
+  }
+}
+
+/* OLD-TEAM */
 .team-background {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../../img/bg.jpg");

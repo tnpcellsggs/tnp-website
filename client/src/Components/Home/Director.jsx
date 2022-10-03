@@ -14,64 +14,6 @@ export default function Director() {
         <Row>
           <Col lg={6}>
             <Container className="dir-card">
-              <img src={RNJoshi} />
-              <h5>Dr. R. N. Joshi</h5>
-              <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p>
-              <center>
-                <hr />
-              </center>
-              <div className="scrollable">
-                <p className="dir-details">
-                  <p>A hearty welcome to SGGSIE&T!</p>
-                  <p>
-                    Established in 1981, Shri Guru Gobind Singhji Institute of
-                    Engineering and Technology (SGGSIET), Nanded, is one of the
-                    promising leader institutions in technical education,
-                    research and technology transfer.
-                  </p>
-                  <p>
-                    The Institute is committed to providing state-of-the-art
-                    technical education in a variety of fields and also for
-                    facilitating the transmission of knowledge in keeping with
-                    the latest developments in methods of teaching. Each student
-                    is also required to take certain minimum course credits in
-                    the Department of Humanities and Social Sciences which
-                    greatly enhances their outlook on society and its needs.
-                  </p>
-                  <p>
-                    Recently the institute has signed MoUs for academic
-                    collaboration with Foreign Universities like CUNY CREST and
-                    Civil Engineering Department, The City University of New
-                    York, USA, Oakland University Michigan, USA, SAI
-                    Technologies, USA and University Technology Petronas,
-                    Malaysia. MoUs are also signed with Industry associations
-                    such as CMIA, Aurangabad, NIMA, Nashik, industries like TCS,
-                    Indus Aviation Pune, ChipSpirit Banglore, and Mentor
-                    Graphics (A Siemens Business) etc.
-                  </p>
-                  <p>
-                    Our team of placement coordinators and dedicated volunteers
-                    will ensure that the recruitment process becomes a smooth
-                    and pleasing experience for both the recruiters and the
-                    students. Feel free to contact the Training & Placement
-                    Office. With this, I welcome all the recruiters to SGGSIE&T.
-                  </p>
-
-                  <p className="closing">
-                    Warm Regards
-                    <br />
-                    Dr Ravindra Joshi
-                    <br />
-                    Dean (Industry Liaison) and In-charge TPO
-                    <br />
-                    SGGSIE&T, Nanded
-                  </p>
-                </p>
-              </div>
-            </Container>
-          </Col>
-          <Col lg={6}>
-            <Container className="dir-card">
               <img src={YVJoshi} />
               <h5>Dr. Y. V. Joshi</h5>
               <p className="dir-subtext">Director</p>
@@ -138,6 +80,64 @@ export default function Director() {
                     Dr Y.V. Joshi
                     <br />
                     Director, SGGSIE&T, Nanded
+                  </p>
+                </p>
+              </div>
+            </Container>
+          </Col>
+          <Col lg={6}>
+            <Container className="dir-card">
+              <img src={RNJoshi} />
+              <h5>Dr. R. N. Joshi</h5>
+              <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p>
+              <center>
+                <hr />
+              </center>
+              <div className="scrollable">
+                <p className="dir-details">
+                  <p>A hearty welcome to SGGSIE&T!</p>
+                  <p>
+                    Established in 1981, Shri Guru Gobind Singhji Institute of
+                    Engineering and Technology (SGGSIET), Nanded, is one of the
+                    promising leader institutions in technical education,
+                    research and technology transfer.
+                  </p>
+                  <p>
+                    The Institute is committed to providing state-of-the-art
+                    technical education in a variety of fields and also for
+                    facilitating the transmission of knowledge in keeping with
+                    the latest developments in methods of teaching. Each student
+                    is also required to take certain minimum course credits in
+                    the Department of Humanities and Social Sciences which
+                    greatly enhances their outlook on society and its needs.
+                  </p>
+                  <p>
+                    Recently the institute has signed MoUs for academic
+                    collaboration with Foreign Universities like CUNY CREST and
+                    Civil Engineering Department, The City University of New
+                    York, USA, Oakland University Michigan, USA, SAI
+                    Technologies, USA and University Technology Petronas,
+                    Malaysia. MoUs are also signed with Industry associations
+                    such as CMIA, Aurangabad, NIMA, Nashik, industries like TCS,
+                    Indus Aviation Pune, ChipSpirit Banglore, and Mentor
+                    Graphics (A Siemens Business) etc.
+                  </p>
+                  <p>
+                    Our team of placement coordinators and dedicated volunteers
+                    will ensure that the recruitment process becomes a smooth
+                    and pleasing experience for both the recruiters and the
+                    students. Feel free to contact the Training & Placement
+                    Office. With this, I welcome all the recruiters to SGGSIE&T.
+                  </p>
+
+                  <p className="closing">
+                    Warm Regards
+                    <br />
+                    Dr Ravindra Joshi
+                    <br />
+                    Dean (Industry Liaison) and In-charge TPO
+                    <br />
+                    SGGSIE&T, Nanded
                   </p>
                 </p>
               </div>

@@ -45,10 +45,11 @@ export default function Navbar() {
           <BSNavbar.Brand id="navbar-brand" href="/">
             <img className="logo-img" src={SGGSLogo} alt="" />
             <span className="divider"></span>
-            <img className="logo-img" src={TNPLogo} alt="" />
+            {/* <img className="logo-img" src={TNPLogo} alt="" /> */}
             &nbsp;
             <div className="logo-text">
-              TRAINING & PLACEMENT <br /> SGGSIE&T, NANDED
+              SHRI GURU GOBIND SINGHJI INSTITUTE OF ENGINEERING & TECHNOLOGY{" "}
+              <br /> TRAINING & PLACEMENTS
             </div>
           </BSNavbar.Brand>
         </Container>
