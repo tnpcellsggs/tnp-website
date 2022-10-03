@@ -46,7 +46,7 @@ export default function CertificateCreate() {
         }
       );
       setResponseStatus(
-        `Status ${res.status}, certificate added successfully. Link is http://placements.sggs.ac.in/verifycert/${res.data._id}/`
+        `Status ${res.status}, certificate added successfully. Link is http://sggssplacements.in/verifycert/${res.data._id}/`
       );
     } catch (err) {
       console.log(err);

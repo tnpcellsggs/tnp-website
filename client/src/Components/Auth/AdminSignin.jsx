@@ -23,7 +23,10 @@ function AdminSignin() {
 
   useEffect(() => {
     document.title = "Sign in as Admin";
-    userRef.current.focus();
+    console.log(isAdminLoggedIn);
+    if (!isAdminLoggedIn) {
+      userRef.current.focus();
+    }
   }, []);
 
   useEffect(() => {

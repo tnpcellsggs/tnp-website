@@ -10,7 +10,7 @@ import VerifyCertificate from "./Components/Admin/Certificate/VerifyCertificate"
 export const AdminContext = React.createContext(false);
 
 function App() {
-  const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(true);
+  const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
 
   return (
     <div className="App">
