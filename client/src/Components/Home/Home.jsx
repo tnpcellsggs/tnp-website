@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./Home.css";
 import Social from "./Social";
@@ -12,24 +12,24 @@ import Placements from "./Placements/Placements";
 import Events from "./Events/Events";
 import AboutInfo from "./AboutInfo"; //About
 import Director from "./Director";
-import Recruiters from "./Recruiters";
 import NewTeam from "./NewTeam"; //NewTeam
 import Team from "./Team";
-import Graph from "./Graph";
 // import Charts from "./Charts";
 // import Alumni from "./Alumni";
 import Footer from "./Footer";
+import Help from "./Help";
 
 const Homepage = () => {
   useEffect(() => {
     document.title = "Training & Placement, SGGSIE&T Nanded";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Achievements />
-      {/* <Counts /> */}
+      <Counts />
       <Whyus />
       <Departments />
     </>
@@ -39,6 +39,7 @@ const Homepage = () => {
 const AboutUs = () => {
   useEffect(() => {
     document.title = "About Us | SGGS Training & Placement";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -46,8 +47,6 @@ const AboutUs = () => {
       <h1 class="homepage-headings">About Us</h1>
       <AboutInfo />
       <Director />
-      <Graph />
-      <Recruiters />
       <center>
         <a
           target="_blank"
@@ -78,6 +77,7 @@ const AboutUs = () => {
 const ContactUs = () => {
   useEffect(() => {
     document.title = "Contact Us | SGGS Training & Placement";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -90,12 +90,31 @@ const ContactUs = () => {
 };
 
 export default function Home() {
+  const scrollUpRef = useRef();
+  const [isButtonHidden, setIsButtonHidden] = useState(true);
+
   useEffect(() => {
     document.title = "Training & Placement Cell, SGGSIE&T Nanded";
+    window.scrollTo(0, 0);
+    window.addEventListener("scroll", buttonDisplay);
   }, []);
+
+  const buttonDisplay = () => {
+    if (window.pageYOffset > 500) {
+      setIsButtonHidden(false);
+    } else {
+      setIsButtonHidden(true);
+    }
+  };
+
+  const scrollToTop = () => {
+    scrollUpRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <Social />
+      <div ref={scrollUpRef}> </div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -103,8 +122,23 @@ export default function Home() {
         <Route path="/events" element={<Events />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
+        {/* <Route path="/gethelp" element={<Help />} /> */}
       </Routes>
+      <ToTop buttonStatus={isButtonHidden} scrollFunction={scrollToTop} />
       <Footer />
     </>
   );
 }
+
+const ToTop = (props) => {
+  return (
+    <div className="totop">
+      <button
+        className={props.buttonStatus ? "totophidden" : "totopbtn"}
+        onClick={props.scrollFunction}
+      >
+        ^
+      </button>
+    </div>
+  );
+};

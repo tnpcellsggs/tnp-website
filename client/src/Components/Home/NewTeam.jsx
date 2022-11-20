@@ -4,7 +4,7 @@ import RNJoshi from "../../img/rnjoshi-sir.png";
 import YVJoshi from "../../img/joshi sir.jpg";
 import IGavakhore from "../../img/ishwar-sir.jpg";
 
-import RajatV from "../../img/team/rajatv.JPG";
+import RajatV from "../../img/team/rajatv.jpg";
 import SakshiM from "../../img/team/sakshim.jpg";
 import AditiS from "../../img/team/aditis.jpg";
 import DhirajC from "../../img/team/dhirajc.jpg";
@@ -76,6 +76,16 @@ const TeamCard = (props) => {
         <a href={`tel:${props.phone}`}>
           <FontAwesomeIcon icon={faPhone} />
         </a>
+        {props.mail ? (
+          <a href={`mailto:${props.mail}`}>
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+        ) : (
+          <></>
+        )}
+        {/* <a href={`mailto:${props.mail}`}>
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a> */}
         <a href={props.lin}>
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -117,26 +127,28 @@ export default function NewTeam() {
         />
       </div>
       <div className="st-team">
-        <h3 className="homepage-headings">Student Team</h3>
+        <h2 className="text-center team-main-text new-font">
+          OUR STUDENTS TEAM (22-23)
+        </h2>
         <div className="st-team-container">
           <div className="st-team-group st-team-2x">
             <h3>Secretaries</h3>
             <div className="st-team-contents">
               <TeamCard
-                img={RajatV}
-                name="Rajat Vishwakarma"
-                designation="Training & Placement Secretary"
-                phone="9820219474"
-                mail=""
-                lin="https://www.linkedin.com/in/rajat-vishwakarma-123253229"
-              />
-              <TeamCard
                 img={SakshiM}
                 name="Sakshi Mundada"
                 designation="Training & Placement Secretary"
                 phone="9420260270"
-                mail="2020bec022@sggs.ac.in"
+                mail="2020bec122@sggs.ac.in"
                 lin="https://www.linkedin.com/in/sakshi-mundada-7b6047227"
+              />
+              <TeamCard
+                img={RajatV}
+                name="Rajat Vishwakarma"
+                designation="Training & Placement Secretary"
+                phone="9820219474"
+                mail="2020bce061@sggs.ac.in"
+                lin="https://www.linkedin.com/in/rajat-vishwakarma-123253229"
               />
             </div>
           </div>

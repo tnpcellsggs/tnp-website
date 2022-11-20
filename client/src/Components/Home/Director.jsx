@@ -46,12 +46,9 @@ export default function Director() {
                     Engineering is about acquiring profound knowledge. A system
                     of profound knowledge consists of four parts appreciation of
                     the system, knowledge about variation, theory of knowledge
-                    and psychology. We teach students the necessary
-                    mathematical, analytical, computational, and psychological
-                    tools for grasping profound knowledge. Our motto is to
-                    empower students on a journey on the road to knowledge and
-                    create a yearning for more knowledge. We allow our students
-                    to customize their learning experiences to their learning
+                    and psychology. We teach students the necessary tools for
+                    grasping profound knowledge. We allow our students to
+                    customize their learning experiences to their learning
                     styles within the academic framework of our institute.
                     Students can learn through various mechanisms such as
                     classrooms, MOOC courses, alumni associations, experts in
@@ -64,7 +61,7 @@ export default function Director() {
                     abroad. I would ask our students to take advantage of all
                     the opportunities and the tools to excel in this highly
                     competitive and fast advancing world. The Placement Office
-                    Internship Office) has been striving continuously to match
+                    (Internship Office) has been striving continuously to match
                     the students with their dream jobs (internships), resulting
                     in a win-win situation for the student and the hiring
                     organization.
@@ -97,14 +94,8 @@ export default function Director() {
                 <p className="dir-details">
                   <p>A hearty welcome to SGGSIE&T!</p>
                   <p>
-                    Established in 1981, Shri Guru Gobind Singhji Institute of
-                    Engineering and Technology (SGGSIET), Nanded, is one of the
-                    promising leader institutions in technical education,
-                    research and technology transfer.
-                  </p>
-                  <p>
                     The Institute is committed to providing state-of-the-art
-                    technical education in a variety of fields and also for
+                    technical education in a variety of fields and for
                     facilitating the transmission of knowledge in keeping with
                     the latest developments in methods of teaching. Each student
                     is also required to take certain minimum course credits in
@@ -119,7 +110,7 @@ export default function Director() {
                     Technologies, USA and University Technology Petronas,
                     Malaysia. MoUs are also signed with Industry associations
                     such as CMIA, Aurangabad, NIMA, Nashik, industries like TCS,
-                    Indus Aviation Pune, ChipSpirit Banglore, and Mentor
+                    Indus Aviation Pune, ChipSpirit Bangalore, and Mentor
                     Graphics (A Siemens Business) etc.
                   </p>
                   <p>

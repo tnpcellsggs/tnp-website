@@ -76,16 +76,16 @@ export default function Footer() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/placements">Placements</a>
+                <Link to="/placements">Placements</Link>
               </li>
               <li>
-                <a href="/events">Events</a>
+                <Link to="/events">Events</Link>
               </li>
               <li>
-                <a href="/aboutus">About Us</a>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <a href="/contactus">Contact Us</a>
+                <Link to="/contactus">Contact Us</Link>
               </li>
             </ul>
           </Col>
@@ -136,8 +136,15 @@ export default function Footer() {
                   className="ci-icon"
                   icon={faEnvelopeOpen}
                 />
-                <div className="ci-cell-div">
-                  <a href="mailto:tpo@sggs.ac.in">tpo@sggs.ac.in</a>
+                <div
+                  className="ci-cell-div"
+                  style={{ alignItems: "center", color: "#fff" }}
+                >
+                  <div>
+                    <a href="mailto:tpo@sggs.ac.in">tpo@sggs.ac.in</a>
+                    <br />
+                    <a href="mailto:tnpcell@sggs.ac.in">tnpcell@sggs.ac.in</a>
+                  </div>
                 </div>
               </div>
             </Stack>

@@ -15,7 +15,7 @@ import Amazon from "../../img/Posters2223/Amazon.png";
 import Bitwise from "../../img/Posters2223/BITWISE.png";
 import Centiro from "../../img/Posters2223/Centiro.png";
 import Cognologix from "../../img/Posters2223/COGNOLOGIX.png";
-import EnH from "../../img/Posters2223/e&h.png";
+// import EnH from "../../img/Posters2223/e&h.png";
 import Elastik from "../../img/Posters2223/ELASTIK.png";
 import Iauro from "../../img/Posters2223/iauro.png";
 import Infinichains from "../../img/Posters2223/Infinichains.png";
@@ -85,9 +85,9 @@ const Carousel = () => {
       <SwiperSlide>
         <img src={Centiro} class="d-block w-100" alt="Poster 13" />
       </SwiperSlide>
-      <SwiperSlide>
+      {/* <SwiperSlide>
         <img src={EnH} class="d-block w-100" alt="Poster 14" />
-      </SwiperSlide>
+      </SwiperSlide> */}
       <SwiperSlide>
         <img src={Elastik} class="d-block w-100" alt="Poster 15" />
       </SwiperSlide>

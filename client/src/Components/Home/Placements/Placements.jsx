@@ -4,6 +4,9 @@ import PGraph from "./PGraph";
 import PList from "./PList";
 import { yearwiseSummary } from "./PData";
 
+import Graph from "../Graph";
+import Recruiters from "../Recruiters";
+
 const PTable = () => {
   return (
     <div className="p-table">
@@ -34,6 +37,7 @@ const PTable = () => {
 export default function Placements() {
   useEffect(() => {
     document.title = "Placements | SGGS Training & Placement";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -42,6 +46,8 @@ export default function Placements() {
       <PGraph />
       <PTable />
       <PList />
+      {/* <Graph /> */}
+      <Recruiters />
     </>
   );
 }

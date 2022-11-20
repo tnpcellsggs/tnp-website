@@ -20,46 +20,28 @@ export default function Whyus() {
               <h3>Why SGGSIE&T?</h3>
               <div className="scrollable">
                 <p>
-                  The answer to this question, "Where can we get the academic
-                  achievements that will benefit us for the upcoming future?" is
-                  SGGSIE&T. " Apart from being one of the best Technical
-                  Institute in MARATHWADA and one of only a few in the
-                  MAHARASHTRA, SGGSIE&T creates experiences that students
-                  cherish for their lifetime. If you are passionate about your
-                  interests and want to be part of a peer group that too are
-                  enthusiasts, the institute will embrace you with its
-                  electrifying aura and with its time old wisdom. In the
-                  institute, students usually find extracurricular activities
-                  that they are passionate about. Whether the passion is with
-                  core branches or another non-academic curriculum, the
-                  Institute is home to all of them. The distinguished and
-                  renowned faculty at SGGSIE&T is among one the best in
-                  MAHARASHTRA's vocational institutes. The majority of the
-                  faculty members are high achievers in their own right, as well
-                  as excellent teachers and mentors. "Most of our professors are
-                  research scholars themselves and are deeply involved in their
-                  subjects of interest," one student says.
+                  Apart from being one of the best Technical Institute in
+                  MARATHWADA and one of only a few in the MAHARASHTRA, SGGSIE&T
+                  creates experiences that students cherish for their lifetime.
+                  Whether the passion is with core branches or another
+                  non-academic curriculum, the Institute is home to all of them.
+                  The distinguished and renowned faculty at SGGSIE&T is among
+                  one the best in MAHARASHTRA's vocational institutes. The
+                  majority of the faculty members are high achievers in their
+                  own right, as well as excellent teachers and mentors. "Most of
+                  our professors are research scholars themselves and are deeply
+                  involved in their subjects of interest," one student says.
                 </p>
                 <p>
                   It is our professors' attitude that characterizes them and
-                  makes them alluring to our students. Our students need to have
-                  professors who think in this way if they are to get their
-                  answers and take their involvement in their courses to the
-                  next level." The institute not only has a bright set of
-                  students at all times, but it also has one of the strongest
-                  and most loyal alumni networks, SGGSIE&T alumni regularly
-                  contribute to enriching its experience. One of the most
-                  surprising reasons that students choose to be a part of
-                  SGGSIE&T is that most people would not expect it. While the
-                  academic curriculum is an important part of the SGGSIE&T
-                  experience, the institute also provides several
-                  extracurricular activities in which SGGSIE&T students are
-                  encouraged to participate. This ensures that students receive
-                  a well-rounded education that is not limited to academic
-                  achievements alone. "We are proud to be a part of an institute
-                  that promotes a strong curriculum with a strong interest in
-                  participation outside of the classroom," says one SGGSIE&T
-                  student.
+                  makes them alluring to our students. The institute not only
+                  has a bright set of students at all times, but it also has one
+                  of the strongest and most loyal alumni networks, SGGSIE&T
+                  alumni regularly contribute to enriching its experience. The
+                  Institute encourages students to participate in several
+                  extracurricular activities to ensure that students receive a
+                  well-rounded education that is not limited to academic
+                  achievements alone.
                 </p>
                 <p>
                   SGGSIE&T is a place that believes in the entrepreneurship
@@ -77,11 +59,11 @@ export default function Whyus() {
                   change from the concrete jungle that is the rest of NANDED and
                   one of the best college festivals in NANDED, Mood Indigo,
                   which ensures that there is never a dull moment in the lives
-                  of SGGSIE&T students.SGGSIET has bagged 4th Rank in India, and
-                  2nd in the state in ARIIA 2020 rankings among Govt. and Govt.
-                  aided Colleges/Institutes category. SGGSIE&T is ranked 89th
-                  amongst the top 100 engineering Institutes in the country by
-                  NIRF. Studying at SGGSIE&T can be a truly transformative
+                  of SGGSIE&T students. SGGSIE&T has bagged 4th Rank in India,
+                  and 2nd in the state in ARIIA 2020 rankings among Govt. and
+                  Govt. aided Colleges/Institutes category. SGGSIE&T is ranked
+                  89th amongst the top 100 engineering Institutes in the country
+                  by NIRF. Studying at SGGSIE&T can be a truly transformative
                   experience.
                 </p>
               </div>
@@ -144,12 +126,6 @@ export default function Whyus() {
                                     citations, 25 patents filed and two awarded.
                                   </li>
                                   <li>
-                                    Institute hosted three prestigious
-                                    international conferences last year in
-                                    collaboration with national and
-                                    international premier institutes.
-                                  </li>
-                                  <li>
                                     Students at SGGS bagged AIR-1 three times
                                     and several students in the top 100 in the
                                     GATE examination every year.
@@ -167,10 +143,6 @@ export default function Whyus() {
                                     secured third prize in the Baja Competition,
                                     first prize in one of the Smart India
                                     Hackathons.
-                                  </li>
-                                  <li>
-                                    Institute boasts of having 25+ Placement MNC
-                                    partners.
                                   </li>
                                   <li>
                                     Recently, Alumni Meets were organized

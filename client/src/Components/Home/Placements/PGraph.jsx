@@ -51,21 +51,21 @@ const data = [
   },
   {
     year: "AY 19/20",
-    "Under Graduate": 265,
+    "Under Graduate": 239,
     "Post Graduate": 12,
-    Total: 277,
+    Total: 251,
   },
   {
     year: "AY 20/21",
-    "Under Graduate": 417,
-    "Post Graduate": 33,
-    Total: 450,
+    "Under Graduate": 306,
+    "Post Graduate": 29,
+    Total: 335,
   },
   {
     year: "AY 21/22",
-    "Under Graduate": 572,
+    "Under Graduate": 412,
     "Post Graduate": 19,
-    Total: 591,
+    Total: 431,
   },
 ];
 

@@ -71,6 +71,9 @@ export default function Navbar() {
             <Link id="navlink" to="/contactus">
               Contact Us
             </Link>
+            {/* <Link id="navlink" to="/gethelp">
+              Help Center
+            </Link> */}
             {/* <Nav.Link id="navlink" href="#">
               <Link id="navlink" to="contactus" smooth duration={500}>
                 <LoginButton />

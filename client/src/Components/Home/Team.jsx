@@ -84,7 +84,7 @@ export default function Team() {
   return (
     <>
       <div className="team-background" id="ourteam">
-        <h2 className="text-center team-main-text">OUR TEAM</h2>
+        <h2 className="text-center team-main-text">TEAM (21-22)</h2>
         <div>
           <Swiper
             loop={true}
@@ -151,7 +151,7 @@ export default function Team() {
                 linkedin="https://www.linkedin.com/in/monika-hamand-59a020203"
               />
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <TeamCard
                 fullname="Harsh Kadam"
                 pfp={harkad}
@@ -159,7 +159,7 @@ export default function Team() {
                 mail="mailto:2020bch502@sggs.ac.in"
                 linkedin="https://www.linkedin.com/in/harsh-kadam-880a88202"
               />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <TeamCard
                 fullname="Kapil Kapse"

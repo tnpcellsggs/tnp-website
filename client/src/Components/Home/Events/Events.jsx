@@ -10,6 +10,7 @@ function Events() {
 
   useEffect(() => {
     document.title = "Events | SGGS Training & Placement";
+    window.scrollTo(0, 0);
 
     const fetchEventList = async () => {
       try {
