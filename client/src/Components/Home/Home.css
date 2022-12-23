@@ -354,9 +354,12 @@
 }
 
 .wu-popup-card {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   margin-top: 20px;
   border-radius: 10px;
+  height: 100%;
   box-shadow: 0px 2px 16px #0004;
 }
 
@@ -379,7 +382,7 @@
 }
 
 .card-button {
-  margin-bottom: 0;
+  margin-top: auto;
 }
 
 .popup-main {
@@ -740,6 +743,9 @@ td {
 }
 
 .cm-inner h4 {
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-blue);
   margin-bottom: 0;
 }
 
@@ -773,9 +779,16 @@ td {
   }
   .contact-main img {
     margin-bottom: 0;
+    width: 150px;
   }
   .cm-inner {
     margin-top: 20px;
+  }
+  .cm-inner h4 {
+    font-size: 22px;
+  }
+  .cm-inner a {
+    font-size: 14px;
   }
 }
 
@@ -912,7 +925,15 @@ td {
 
 .team-card {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
   text-align: center;
+}
+
+.team-card h4 {
+  font-size: 22px;
 }
 
 .team-card a {
@@ -920,7 +941,7 @@ td {
 }
 
 .team-img {
-  width: 100%;
+  width: 180px;
   border-radius: 100%;
 }
 

@@ -18,12 +18,13 @@ import PranavU from "../../img/team/pranavu.jpg";
 import RahulW from "../../img/team/rahulw.jpg";
 import OmrajD from "../../img/team/omrajd.jpg";
 import ShamliK from "../../img/team/shamlik.jpg";
-import AniketB from "../../img/bg.jpg";
+import AniketB from "../../img/team/aniketb.jpg";
 import AryanB from "../../img/team/aryanb.jpg";
 import MallinathH from "../../img/team/mallinathh.jpg";
 import PratikB from "../../img/team/pratikb.jpg";
 import SandeshB from "../../img/team/sandeshb.jpeg";
 import SanskrutiJ from "../../img/team/sanskrutij.jpg";
+import SanskrutiM from "../../img/team/sanskrutim.jpg";
 import SwapnaliN from "../../img/team/swapnalin.jpg";
 import VyankateshK from "../../img/team/vyankateshk.jpg";
 import YashK from "../../img/team/yashk.jpg";
@@ -254,9 +255,9 @@ export default function NewTeam() {
                 img={PranavU}
                 name="Pranav Umak"
                 designation="Media & Workshop Executive"
-                phone="9860529951"
-                mail="2020bel006@sggs.ac.in"
-                lin="https://www.linkedin.com/in/vaishnavi-urmunge-5b0ab4228"
+                phone="7620965567"
+                mail="2020bcs077@sggs.ac.in"
+                lin="https://www.linkedin.com/in/pranav-umak-8b565b213"
               />
               <TeamCard
                 img={VaishnaviU}
@@ -303,10 +304,10 @@ export default function NewTeam() {
               <TeamCard
                 img={PranavU}
                 name="Pranav Umak"
-                designation="Workshop & Media Executive"
-                phone="9860529951"
-                mail="2020bel006@sggs.ac.in"
-                lin="https://www.linkedin.com/in/vaishnavi-urmunge-5b0ab4228"
+                designation="Media & Workshop Executive"
+                phone="7620965567"
+                mail="2020bcs077@sggs.ac.in"
+                lin="https://www.linkedin.com/in/pranav-umak-8b565b213"
               />
               <TeamCard
                 img={ShamliK}
@@ -368,6 +369,14 @@ export default function NewTeam() {
                 phone="7559438889"
                 mail="2020bec021@sggs.ac.in"
                 lin="https://www.linkedin.com/in/sanskruti-jadhav-38267121a"
+              />
+              <TeamCard
+                img={SanskrutiM}
+                name="Sanskruti Meshram"
+                designation="Departmental Coordinator (Chemical)"
+                phone="9420241598"
+                mail="2020bch012@sggs.ac.in"
+                lin=""
               />
               <TeamCard
                 img={SwapnaliN}

@@ -41,15 +41,17 @@ class TeamCard extends React.Component {
       <div className="team-card">
         <img src={this.props.pfp} className="team-img" />
         <h4 className="p-3 text-white">{this.props.fullname}</h4>
-        <a href={this.props.phone}>
-          <FontAwesomeIcon icon={faPhone} className="m-2" />
-        </a>
-        <a href={this.props.mail}>
-          <FontAwesomeIcon icon={faEnvelope} className="m-2" />
-        </a>
-        <a href={this.props.linkedin}>
-          <FontAwesomeIcon icon={faLinkedin} className="m-2" />
-        </a>
+        <div style={{ marginTop: "auto" }}>
+          <a href={this.props.phone}>
+            <FontAwesomeIcon icon={faPhone} className="m-2" />
+          </a>
+          <a href={this.props.mail}>
+            <FontAwesomeIcon icon={faEnvelope} className="m-2" />
+          </a>
+          <a href={this.props.linkedin}>
+            <FontAwesomeIcon icon={faLinkedin} className="m-2" />
+          </a>
+        </div>
       </div>
     );
   }

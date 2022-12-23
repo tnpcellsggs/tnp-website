@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import axios from "axios";
 import "./Home.css";
+
 import Social from "./Social";
 import Navbar from "./Navbar";
 import Hero from "./Hero"; // Home
@@ -23,6 +25,18 @@ const Homepage = () => {
   useEffect(() => {
     document.title = "Training & Placement, SGGSIE&T Nanded";
     window.scrollTo(0, 0);
+
+    const fetchEventList = async () => {
+      try {
+        let res = await axios.get(
+          `${process.env.REACT_APP_REQURL}/admin/events/getall/`
+        );
+        console.log("Server online!");
+      } catch (err) {
+        console.log(err);
+      }
+    };
+    fetchEventList();
   }, []);
 
   return (
