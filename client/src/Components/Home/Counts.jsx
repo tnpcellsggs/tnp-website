@@ -11,44 +11,33 @@ export default function Counts() {
             <Stack id="count-center">
               <CountUp
                 className="counterNum"
-                end={400}
+                end={431}
                 duration={3}
                 useEasing={true}
               />
-              Successful Placements
+              Placed Students
             </Stack>
           </Col>
           <Col>
             <Stack id="count-center">
               <CountUp
                 className="counterNum"
-                end={28}
+                end={600}
+                duration={3}
+                useEasing={true}
+              />
+              Total Offers
+            </Stack>
+          </Col>
+          <Col>
+            <Stack id="count-center">
+              <CountUp
+                className="counterNum"
+                end={70}
                 duration={3}
                 useEasing={true}
               />
               Companies
-            </Stack>
-          </Col>
-          <Col>
-            <Stack id="count-center">
-              <CountUp
-                className="counterNum"
-                end={80}
-                duration={3}
-                useEasing={true}
-              />
-              Placement Percentage
-            </Stack>
-          </Col>
-          <Col>
-            <Stack id="count-center">
-              <CountUp
-                className="counterNum"
-                end={96}
-                duration={3}
-                useEasing={true}
-              />
-              Satisfaction
             </Stack>
           </Col>
         </Row>

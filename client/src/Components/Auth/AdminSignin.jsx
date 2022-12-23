@@ -23,7 +23,10 @@ function AdminSignin() {
 
   useEffect(() => {
     document.title = "Sign in as Admin";
-    userRef.current.focus();
+    console.log(isAdminLoggedIn);
+    if (!isAdminLoggedIn) {
+      userRef.current.focus();
+    }
   }, []);
 
   useEffect(() => {
@@ -46,6 +49,7 @@ function AdminSignin() {
       setPassword("");
       setIsAdminLoggedIn(true);
     } catch (err) {
+      console.log(err);
       switch (err.response.status) {
         case 404:
           setErrorMsg("User not found. Please enter a valid username.");

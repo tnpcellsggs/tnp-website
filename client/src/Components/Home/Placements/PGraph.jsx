@@ -15,8 +15,9 @@ import {
 const data = [
   {
     year: "AY 13/14",
-    "Under Graduate": 196,
-    Total: 196,
+    "Under Graduate": 220,
+    "Post Graduate": 25,
+    Total: 245,
   },
   {
     year: "AY 14/15",
@@ -26,15 +27,15 @@ const data = [
   },
   {
     year: "AY 15/16",
-    "Under Graduate": 375,
-    "Post Graduate": 14,
+    "Under Graduate": 377,
+    "Post Graduate": 12,
     Total: 389,
   },
   {
     year: "AY 16/17",
-    "Under Graduate": 256,
+    "Under Graduate": 255,
     "Post Graduate": 19,
-    Total: 275,
+    Total: 274,
   },
   {
     year: "AY 17/18",
@@ -44,15 +45,27 @@ const data = [
   },
   {
     year: "AY 18/19",
-    "Under Graduate": 233,
+    "Under Graduate": 235,
     "Post Graduate": 19,
-    Total: 252,
+    Total: 254,
   },
   {
     year: "AY 19/20",
-    "Under Graduate": 280,
+    "Under Graduate": 239,
     "Post Graduate": 12,
-    Total: 292,
+    Total: 251,
+  },
+  {
+    year: "AY 20/21",
+    "Under Graduate": 306,
+    "Post Graduate": 29,
+    Total: 335,
+  },
+  {
+    year: "AY 21/22",
+    "Under Graduate": 412,
+    "Post Graduate": 19,
+    Total: 431,
   },
 ];
 

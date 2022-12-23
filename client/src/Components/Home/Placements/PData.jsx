@@ -9,7 +9,7 @@ export const y1415 = [
   { dept: "IT", "Undergrad Total": 78, "Undergrad Placed": 41, "Postgrad Total": 17, "Postgrad Placed": 2 },
   { dept: "Mech", "Undergrad Total": 0, "Undergrad Placed": 0, "Postgrad Total": 16, "Postgrad Placed": 3 },
   { dept: "Prod", "Undergrad Total": 68, "Undergrad Placed": 18, "Postgrad Total": 24, "Postgrad Placed": 1 },
-  { dept: "Text", "Undergrad Total": 28, "Undergrad Placed": 14, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Text", "Undergrad Total": 29, "Undergrad Placed": 14, "Postgrad Total": 0, "Postgrad Placed": 0 },
 ];
 
 //prettier-ignore
@@ -20,10 +20,10 @@ export const y1516 = [
   { dept: "Elec", "Undergrad Total": 37, "Undergrad Placed": 27, "Postgrad Total": 0, "Postgrad Placed": 0 },
   { dept: "EXTC", "Undergrad Total": 148, "Undergrad Placed": 84, "Postgrad Total": 18, "Postgrad Placed": 7 },
   { dept: "Instru", "Undergrad Total": 50, "Undergrad Placed": 40, "Postgrad Total": 18, "Postgrad Placed": 1 },
-  { dept: "IT", "Undergrad Total": 73, "Undergrad Placed": 48, "Postgrad Total": 19, "Postgrad Placed": 3 },
+  { dept: "IT", "Undergrad Total": 73, "Undergrad Placed": 51, "Postgrad Total": 19, "Postgrad Placed": 3 },
   { dept: "Mech", "Undergrad Total": 72, "Undergrad Placed": 34, "Postgrad Total": 18, "Postgrad Placed": 0 },
   { dept: "Prod", "Undergrad Total": 78, "Undergrad Placed": 23, "Postgrad Total": 25, "Postgrad Placed": 0 },
-  { dept: "Text", "Undergrad Total": 31, "Undergrad Placed": 14, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Text", "Undergrad Total": 31, "Undergrad Placed": 12, "Postgrad Total": 0, "Postgrad Placed": 0 },
 ];
 
 //prettier-ignore
@@ -56,13 +56,13 @@ export const y1718 = [
 
 //prettier-ignore
 export const y1819 = [
-  { dept: "Chem", "Undergrad Total": 34, "Undergrad Placed": 7, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Chem", "Undergrad Total": 34, "Undergrad Placed": 8, "Postgrad Total": 0, "Postgrad Placed": 0 },
   { dept: "Civil", "Undergrad Total": 60, "Undergrad Placed": 1, "Postgrad Total": 34, "Postgrad Placed": 0 },
-  { dept: "CSE", "Undergrad Total": 144, "Undergrad Placed": 70, "Postgrad Total": 18, "Postgrad Placed": 3 },
-  { dept: "Elec", "Undergrad Total": 31, "Undergrad Placed": 14, "Postgrad Total": 0, "Postgrad Placed": 0 },
-  { dept: "EXTC", "Undergrad Total": 132, "Undergrad Placed": 49, "Postgrad Total": 46, "Postgrad Placed": 6 },
+  { dept: "CSE", "Undergrad Total": 144, "Undergrad Placed": 71, "Postgrad Total": 18, "Postgrad Placed": 3 },
+  { dept: "Elec", "Undergrad Total": 31, "Undergrad Placed": 13, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "EXTC", "Undergrad Total": 132, "Undergrad Placed": 48, "Postgrad Total": 46, "Postgrad Placed": 6 },
   { dept: "Instru", "Undergrad Total": 44, "Undergrad Placed": 24, "Postgrad Total": 13, "Postgrad Placed": 1 },
-  { dept: "IT", "Undergrad Total": 75, "Undergrad Placed": 34, "Postgrad Total": 17, "Postgrad Placed": 4 },
+  { dept: "IT", "Undergrad Total": 75, "Undergrad Placed": 36, "Postgrad Total": 17, "Postgrad Placed": 4 },
   { dept: "Mech", "Undergrad Total": 66, "Undergrad Placed": 9, "Postgrad Total": 18, "Postgrad Placed": 3 },
   { dept: "Prod", "Undergrad Total": 62, "Undergrad Placed": 9, "Postgrad Total": 24, "Postgrad Placed": 2 },
   { dept: "Text", "Undergrad Total": 34, "Undergrad Placed": 16, "Postgrad Total": 2, "Postgrad Placed": 0 },
@@ -73,13 +73,41 @@ export const y1920 = [
   { dept: "Chem", "Undergrad Total": 38, "Undergrad Placed": 10, "Postgrad Total": 0, "Postgrad Placed": 0 },
   { dept: "Civil", "Undergrad Total": 74, "Undergrad Placed": 1, "Postgrad Total": 22, "Postgrad Placed": 0 },
   { dept: "CSE", "Undergrad Total": 154, "Undergrad Placed": 99, "Postgrad Total": 18, "Postgrad Placed": 0 },
-  { dept: "Elec", "Undergrad Total": 38, "Undergrad Placed": 12, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Elec", "Undergrad Total": 38, "Undergrad Placed": 13, "Postgrad Total": 0, "Postgrad Placed": 0 },
   { dept: "EXTC", "Undergrad Total": 138, "Undergrad Placed": 51, "Postgrad Total": 22, "Postgrad Placed": 3 },
   { dept: "Instru", "Undergrad Total": 54, "Undergrad Placed": 23, "Postgrad Total": 7, "Postgrad Placed": 0 },
   { dept: "IT", "Undergrad Total": 69, "Undergrad Placed": 50, "Postgrad Total": 15, "Postgrad Placed": 1 },
   { dept: "Mech", "Undergrad Total": 74, "Undergrad Placed": 8, "Postgrad Total": 18, "Postgrad Placed": 7 },
   { dept: "Prod", "Undergrad Total": 74, "Undergrad Placed": 3, "Postgrad Total": 24, "Postgrad Placed": 1 },
   { dept: "Text", "Undergrad Total": 27, "Undergrad Placed": 8, "Postgrad Total": 3, "Postgrad Placed": 0 },
+];
+
+//prettier-ignore
+export const y2021 = [
+  { dept: "Chem", "Undergrad Total": 36, "Undergrad Placed": 9, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Civil", "Undergrad Total": 68, "Undergrad Placed": 10, "Postgrad Total": 13, "Postgrad Placed": 7 },
+  { dept: "CSE", "Undergrad Total": 153, "Undergrad Placed": 85, "Postgrad Total": 17, "Postgrad Placed": 4 },
+  { dept: "Elec", "Undergrad Total": 34, "Undergrad Placed": 20, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "EXTC", "Undergrad Total": 151, "Undergrad Placed": 72, "Postgrad Total": 18, "Postgrad Placed": 2 },
+  { dept: "Instru", "Undergrad Total": 49, "Undergrad Placed": 24, "Postgrad Total": 18, "Postgrad Placed": 0 },
+  { dept: "IT", "Undergrad Total": 75, "Undergrad Placed": 34, "Postgrad Total": 17, "Postgrad Placed": 1 },
+  { dept: "Mech", "Undergrad Total": 78, "Undergrad Placed": 21, "Postgrad Total": 16, "Postgrad Placed": 12 },
+  { dept: "Prod", "Undergrad Total": 73, "Undergrad Placed": 12, "Postgrad Total": 24, "Postgrad Placed": 2 },
+  { dept: "Text", "Undergrad Total": 34, "Undergrad Placed": 15, "Postgrad Total": 0, "Postgrad Placed": 0 },
+];
+
+//prettier-ignore
+export const y2122 = [
+  { dept: "Chem", "Undergrad Total": 37, "Undergrad Placed": 16, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "Civil", "Undergrad Total": 78, "Undergrad Placed": 14, "Postgrad Total": 27, "Postgrad Placed": 0 },
+  { dept: "CSE", "Undergrad Total": 156, "Undergrad Placed": 104, "Postgrad Total": 11, "Postgrad Placed": 2 },
+  { dept: "Elec", "Undergrad Total": 42, "Undergrad Placed": 18, "Postgrad Total": 0, "Postgrad Placed": 0 },
+  { dept: "EXTC", "Undergrad Total": 143, "Undergrad Placed": 99, "Postgrad Total": 15, "Postgrad Placed": 0 },
+  { dept: "Instru", "Undergrad Total": 49, "Undergrad Placed": 35, "Postgrad Total": 4, "Postgrad Placed": 0 },
+  { dept: "IT", "Undergrad Total": 73, "Undergrad Placed": 57, "Postgrad Total": 5, "Postgrad Placed": 0 },
+  { dept: "Mech", "Undergrad Total": 83, "Undergrad Placed": 31, "Postgrad Total": 10, "Postgrad Placed": 6 },
+  { dept: "Prod", "Undergrad Total": 73, "Undergrad Placed": 23, "Postgrad Total": 19, "Postgrad Placed": 1 },
+  { dept: "Text", "Undergrad Total": 38, "Undergrad Placed": 15, "Postgrad Total": 1, "Postgrad Placed": 0 },
 ];
 
 //prettier-ignore
@@ -91,3 +119,11 @@ export const y1920 = [
 // dwlink1819:"https://drive.google.com/open?id=1ynP20HWQtukjFU2-SKvLld7q9ju84fyQ1LUnnwZ1lps",
 // dwlink1920:"https://drive.google.com/open?id=1h29aO09MM555Z2sp3Jvykeb4B3JNUQw9qsFEPqE-xZg"
 // }
+
+//prettier-ignore
+export const yearwiseSummary = [
+  {"Year": "2023 Till date", "BTech on roll": 753, "BTech placed": 150, "MTech on roll": 44, "MTech placed": 0, "Total placed": 150, "Average Package (LPA)": "5.3 LPA", "Package Range (LPA)": "3.36 - 10.7 LPA" },
+  {"Year": "2021-22", "BTech on roll": 772, "BTech placed": 412, "MTech on roll": 91, "MTech placed": 19, "Total placed": 431, "Average Package (LPA)": "4.7 LPA", "Package Range (LPA)": "3.0 - 52 LPA" },
+  {"Year": "2020-21", "BTech on roll": 750, "BTech placed": 306, "MTech on roll": 123, "MTech placed": 29, "Total placed": 335, "Average Package (LPA)": "4.0 LPA", "Package Range (LPA)": "3.0 - 18 LPA" },
+  {"Year": "2019-20", "BTech on roll": 740, "BTech placed": 239, "MTech on roll": 172, "MTech placed": 12, "Total placed": 251, "Average Package (LPA)": "3.6 LPA", "Package Range (LPA)": "2.16 - 9.8 LPA" },
+];

@@ -18,7 +18,7 @@ const data = [
   },
   {
     year: "16/17",
-    "No. of students": 275,
+    "No. of students": 274,
   },
   {
     year: "17/18",
@@ -26,19 +26,19 @@ const data = [
   },
   {
     year: "18/19",
-    "No. of students": 252,
+    "No. of students": 254,
   },
   {
     year: "19/20",
-    "No. of students": 277,
+    "No. of students": 285,
   },
   {
     year: "20/21",
-    "No. of students": 180,
+    "No. of students": 335,
   },
   {
     year: "21/22",
-    "No. of students": 224,
+    "No. of students": 425,
   },
 ];
 

@@ -28,7 +28,7 @@ export default function YearData(props) {
           }
         >
           <div className="p-parent">
-            <ResponsiveContainer height={400} width="100%">
+            <ResponsiveContainer height={300} width="100%">
               <BarChart
                 data={props.senddata}
                 margin={{
@@ -44,6 +44,22 @@ export default function YearData(props) {
                 <Legend />
                 <Bar dataKey="Undergrad Total" stackId="a" fill="#8884d8" />
                 <Bar dataKey="Undergrad Placed" stackId="a" fill="#aaa6fa" />
+              </BarChart>
+            </ResponsiveContainer>
+            <ResponsiveContainer height={300} width="100%">
+              <BarChart
+                data={props.senddata}
+                margin={{
+                  top: 50,
+                  right: 30,
+                  left: 20,
+                  bottom: 50,
+                }}
+              >
+                <XAxis dataKey="dept" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
                 <Bar dataKey="Postgrad Total" stackId="b" fill="#82ca9d" />
                 <Bar dataKey="Postgrad Placed" stackId="b" fill="#a4ecaf" />
               </BarChart>

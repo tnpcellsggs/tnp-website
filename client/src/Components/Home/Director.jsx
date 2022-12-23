@@ -14,64 +14,6 @@ export default function Director() {
         <Row>
           <Col lg={6}>
             <Container className="dir-card">
-              <img src={RNJoshi} />
-              <h5>Dr. R. N. Joshi</h5>
-              <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p>
-              <center>
-                <hr />
-              </center>
-              <div className="scrollable">
-                <p className="dir-details">
-                  <p>A hearty welcome to SGGSIE&T!</p>
-                  <p>
-                    Established in 1981, Shri Guru Gobind Singhji Institute of
-                    Engineering and Technology (SGGSIET), Nanded, is one of the
-                    promising leader institutions in technical education,
-                    research and technology transfer.
-                  </p>
-                  <p>
-                    The Institute is committed to providing state-of-the-art
-                    technical education in a variety of fields and also for
-                    facilitating the transmission of knowledge in keeping with
-                    the latest developments in methods of teaching. Each student
-                    is also required to take certain minimum course credits in
-                    the Department of Humanities and Social Sciences which
-                    greatly enhances their outlook on society and its needs.
-                  </p>
-                  <p>
-                    Recently the institute has signed MoUs for academic
-                    collaboration with Foreign Universities like CUNY CREST and
-                    Civil Engineering Department, The City University of New
-                    York, USA, Oakland University Michigan, USA, SAI
-                    Technologies, USA and University Technology Petronas,
-                    Malaysia. MoUs are also signed with Industry associations
-                    such as CMIA, Aurangabad, NIMA, Nashik, industries like TCS,
-                    Indus Aviation Pune, ChipSpirit Banglore, and Mentor
-                    Graphics (A Siemens Business) etc.
-                  </p>
-                  <p>
-                    Our team of placement coordinators and dedicated volunteers
-                    will ensure that the recruitment process becomes a smooth
-                    and pleasing experience for both the recruiters and the
-                    students. Feel free to contact the Training & Placement
-                    Office. With this, I welcome all the recruiters to SGGSIE&T.
-                  </p>
-
-                  <p className="closing">
-                    Warm Regards
-                    <br />
-                    Dr Ravindra Joshi
-                    <br />
-                    Dean (Industry Liaison) and In-charge TPO
-                    <br />
-                    SGGSIE&T, Nanded
-                  </p>
-                </p>
-              </div>
-            </Container>
-          </Col>
-          <Col lg={6}>
-            <Container className="dir-card">
               <img src={YVJoshi} />
               <h5>Dr. Y. V. Joshi</h5>
               <p className="dir-subtext">Director</p>
@@ -104,12 +46,9 @@ export default function Director() {
                     Engineering is about acquiring profound knowledge. A system
                     of profound knowledge consists of four parts appreciation of
                     the system, knowledge about variation, theory of knowledge
-                    and psychology. We teach students the necessary
-                    mathematical, analytical, computational, and psychological
-                    tools for grasping profound knowledge. Our motto is to
-                    empower students on a journey on the road to knowledge and
-                    create a yearning for more knowledge. We allow our students
-                    to customize their learning experiences to their learning
+                    and psychology. We teach students the necessary tools for
+                    grasping profound knowledge. We allow our students to
+                    customize their learning experiences to their learning
                     styles within the academic framework of our institute.
                     Students can learn through various mechanisms such as
                     classrooms, MOOC courses, alumni associations, experts in
@@ -122,7 +61,7 @@ export default function Director() {
                     abroad. I would ask our students to take advantage of all
                     the opportunities and the tools to excel in this highly
                     competitive and fast advancing world. The Placement Office
-                    Internship Office) has been striving continuously to match
+                    (Internship Office) has been striving continuously to match
                     the students with their dream jobs (internships), resulting
                     in a win-win situation for the student and the hiring
                     organization.
@@ -138,6 +77,58 @@ export default function Director() {
                     Dr Y.V. Joshi
                     <br />
                     Director, SGGSIE&T, Nanded
+                  </p>
+                </p>
+              </div>
+            </Container>
+          </Col>
+          <Col lg={6}>
+            <Container className="dir-card">
+              <img src={RNJoshi} />
+              <h5>Dr. R. N. Joshi</h5>
+              <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p>
+              <center>
+                <hr />
+              </center>
+              <div className="scrollable">
+                <p className="dir-details">
+                  <p>A hearty welcome to SGGSIE&T!</p>
+                  <p>
+                    The Institute is committed to providing state-of-the-art
+                    technical education in a variety of fields and for
+                    facilitating the transmission of knowledge in keeping with
+                    the latest developments in methods of teaching. Each student
+                    is also required to take certain minimum course credits in
+                    the Department of Humanities and Social Sciences which
+                    greatly enhances their outlook on society and its needs.
+                  </p>
+                  <p>
+                    Recently the institute has signed MoUs for academic
+                    collaboration with Foreign Universities like CUNY CREST and
+                    Civil Engineering Department, The City University of New
+                    York, USA, Oakland University Michigan, USA, SAI
+                    Technologies, USA and University Technology Petronas,
+                    Malaysia. MoUs are also signed with Industry associations
+                    such as CMIA, Aurangabad, NIMA, Nashik, industries like TCS,
+                    Indus Aviation Pune, ChipSpirit Bangalore, and Mentor
+                    Graphics (A Siemens Business) etc.
+                  </p>
+                  <p>
+                    Our team of placement coordinators and dedicated volunteers
+                    will ensure that the recruitment process becomes a smooth
+                    and pleasing experience for both the recruiters and the
+                    students. Feel free to contact the Training & Placement
+                    Office. With this, I welcome all the recruiters to SGGSIE&T.
+                  </p>
+
+                  <p className="closing">
+                    Warm Regards
+                    <br />
+                    Dr Ravindra Joshi
+                    <br />
+                    Dean (Industry Liaison) and In-charge TPO
+                    <br />
+                    SGGSIE&T, Nanded
                   </p>
                 </p>
               </div>
