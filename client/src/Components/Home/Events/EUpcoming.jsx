@@ -5,23 +5,18 @@ function EUpcoming(props) {
     <>
       <div className="upcoming-container">
         <div className="ue-box">
-          <div
-            style={{ width: "100%", height: "200px", backgroundColor: "red" }}
-          ></div>
+          <div className="ue-img"><img src={props.img}/></div>
           <div className="ue-content">
-            <h3>Event Name</h3>
-            <h6>Event Type</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <h6>00:00 am</h6>
-            <h6>01 January 2000, Sunday</h6>
+            <h3>{props.name}</h3>
+            <h6>{props.type}</h6>
+            <div className="ue-descholder">
+              <p>
+                {props.desc}
+              </p>
+            </div>
+            <h6>Date: {props.date}</h6>
+            {/* <a href={props.link} target="_blank"><button className="ue-btn">Register Now</button></a> */}
+            {/* <h6>00:00 am</h6> */}
           </div>
         </div>
       </div>

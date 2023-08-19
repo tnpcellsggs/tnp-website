@@ -8,6 +8,21 @@
   font-family: var(--muli);
 }
 
+.ui-btn {
+  background-color: var(--primary-blue);
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.ui-btn:hover {
+  background-color: #fff;
+  color: var(--primary-blue);
+  box-shadow: 0px 0px 8px #000;
+}
+
 /* SOCIALS */
 .social-banner {
   background-color: var(--primary-blue);
@@ -43,8 +58,12 @@
   width: 60px;
 }
 
+.logo-img-container {
+  display: flex;
+}
+
 .divider {
-  display: none;
+  display: block;
   height: 50px;
   width: 1px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -71,10 +90,13 @@
 }
 
 #navlink {
+  width: 100%;
+  white-space: nowrap;
   font-size: 14px;
   font-weight: bold;
   padding: 2px 12px;
   color: #777;
+  cursor: pointer;
 }
 
 #navlink:hover {
@@ -83,6 +105,43 @@
 
 #navlink:focus-visible {
   outline: none;
+}
+
+.nav-contact-drop {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px #777;
+  width: fit-content;
+  white-space: nowrap;
+  right: 16px;
+}
+
+.nav-contact-drop #navlink {
+  padding: 8px 16px;
+}
+
+.nav-contact-drop-container:hover .nav-contact-drop {
+  display: block;
+}
+
+#navdropcontrol {
+  display: none;
+}
+
+#navdropcontrol:checked + label > .nav-contact-drop {
+  display: block;
+}
+
+.nav-contact-drop-mob {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px #777;
+  width: fit-content;
+  white-space: nowrap;
+  right: 16px;
 }
 
 #nav-socialdrop {
@@ -128,6 +187,9 @@
 }
 
 @media only screen and (min-width: 786px) {
+  .logo-img-container {
+    display: none;
+  }
   .desktop-navmenu {
     display: inline-flex;
   }
@@ -139,6 +201,9 @@
   }
   .divider {
     display: block;
+  }
+  .logo-mobile {
+    display: none;
   }
   .logo-text {
     display: block;
@@ -695,6 +760,7 @@ td {
 /* CONTACT */
 .head-container {
   position: relative;
+  margin-bottom: 80px;
 }
 
 .head-bg {
@@ -725,7 +791,7 @@ td {
   /* margin-bottom: 30px; */
   padding: 20px;
   box-shadow: 0px 0px 16px #bbb;
-  width: 80%;
+  width: 70%;
 }
 
 .contact-main img {
@@ -743,10 +809,14 @@ td {
 }
 
 .cm-inner h4 {
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
   text-decoration-color: var(--primary-blue);
   margin-bottom: 0;
+}
+
+.cm-inner p {
+  margin-bottom: 4px;
 }
 
 .cm-inner .subtext {
@@ -755,6 +825,7 @@ td {
 
 .cm-inner a {
   color: var(--primary-blue);
+  font-size: 14px;
 }
 
 .cm-inner a:hover {
@@ -775,14 +846,17 @@ td {
     bottom: -100px;
   }
   .contact-main {
-    width: 50%;
+    width: 40%;
   }
   .contact-main img {
     margin-bottom: 0;
-    width: 150px;
+    width: 220px;
   }
   .cm-inner {
     margin-top: 20px;
+  }
+  .cm-inner p {
+    margin-bottom: 12px;
   }
   .cm-inner h4 {
     font-size: 22px;
@@ -907,6 +981,63 @@ td {
   }
 }
 
+/* OLD TEAM */
+.oldteam-layout {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.oldteam-selector {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin: 4px;
+  padding: 8px;
+  border: solid 4px #222;
+  border-radius: 8px;
+}
+
+.oldteam-selector button {
+  background-color: var(--primary-blue);
+  color: #fff;
+  border: none;
+  font-family: var(--muli);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.oldteam-selector button:hover {
+  box-shadow: 0px 0px 8px #777;
+}
+
+.oldteam-display {
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 786px) {
+  .oldteam-layout {
+    flex-direction: row;
+    height: 80vh;
+    margin-bottom: 20px;
+  }
+  .oldteam-selector {
+    width: 20vw;
+    padding: 32px 0px;
+    height: 100%;
+  }
+  .oldteam-selector button {
+    width: 200px;
+  }
+  .oldteam-display {
+    width: 80vw;
+    overflow-y: scroll;
+  }
+}
+
 /* OLD-TEAM */
 .team-background {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -986,6 +1117,7 @@ td {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .ue-box {
@@ -995,6 +1127,17 @@ td {
   border: 1px solid #222;
 }
 
+.ue-box .ue-img {
+  width: 100%;
+  height: 100%;
+}
+
+.ue-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .ue-box .ue-content {
   display: flex;
   flex-direction: column;
@@ -1002,12 +1145,59 @@ td {
   padding: 8px;
 }
 
-.ue-content p {
-  text-align: center;
-  overflow: hidden;
+.ue-descholder {
+  height: 40vh;
+  margin: 8px 0px;
+  overflow: scroll;
+  box-shadow: inset 0 -7px 9px -7px rgba(0, 0, 0, 0.4);
+}
+
+.ue-content .ue-descholder p {
+  text-align: justify;
+  text-align-last: center;
+  /* overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
+}
+
+.ue-content h3 {
+  text-align: center;
+}
+
+.ue-content h6 {
+  font-family: var(--muli);
+  font-weight: 800;
+}
+
+.ue-btn {
+  background-color: var(--primary-blue);
+  border: none;
+  padding: 4px 8px;
+  margin: 12px;
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.ue-btn:hover {
+  box-shadow: 0px 0px 4px #777;
+}
+
+@media only screen and (min-width: 786px) {
+  .ue-box .ue-img {
+    width: 70vw;
+    height: 60vh;
+  }
+  .ue-descholder {
+    height: auto;
+    overflow: auto;
+    margin-bottom: 16px;
+    box-shadow: none;
+  }
+  .ue-content .ue-descholder p {
+    margin: 0px 16px;
+  }
 }
 
 .past-container {
@@ -1016,6 +1206,14 @@ td {
 
 .pe-type {
   display: none;
+}
+
+.pe-drive :first-child {
+  background-color: #f56;
+}
+
+.pe-drive div div {
+  background-color: #f56;
 }
 
 .pe-box {
@@ -1052,6 +1250,10 @@ td {
 }
 
 @media only screen and (min-width: 786px) {
+  .ue-box {
+    width: 70%;
+  }
+
   .past-container {
     width: 100%;
     justify-content: center;
@@ -1202,8 +1404,8 @@ td {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 10vh;
-  right: 10vh;
+  bottom: 5vw;
+  right: 5vw;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -1221,4 +1423,11 @@ td {
 
 .totophidden {
   display: none;
+}
+
+@media only screen and (min-width: 786px) {
+  .totopbtn {
+    right: 5vh;
+    bottom: 5vh;
+  }
 }
