@@ -5,17 +5,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import RNJoshi from "../../img/RN joshi sir 3.jpg";
 import YVJoshi from "../../img/joshi sir.jpg";
 import ARPatil from "../../img/arpatil-sir.jpeg";
+import MBKokare from "../../img/kokare-sir.jpeg";
+import TNPLogo from "../../img/TNP LOGO.png";
 
 export default function Director() {
   return (
     <>
       <Container className="dir" fluid>
-        <h3>Management's Message</h3>
-        <Row>
+        <h3 style={{ textAlign: "center" }}>Management's Message</h3>
+        <Row style={{ display: "flex", justifyContent: "center" }}>
           <Col lg={6}>
             <Container className="dir-card">
-              <img src={YVJoshi} />
-              <h5>Dr. Y. V. Joshi</h5>
+              <img src={MBKokare} />
+              <h5>Dr. M. B. Kokare</h5>
               <p className="dir-subtext">Director</p>
               <center>
                 <hr />
@@ -74,7 +76,7 @@ export default function Director() {
                   <p>
                     Warm regards
                     <br />
-                    Dr Y.V. Joshi
+                    Dr M. B. Kokare
                     <br />
                     Director, SGGSIE&T, Nanded
                   </p>
@@ -84,9 +86,9 @@ export default function Director() {
           </Col>
           <Col lg={6}>
             <Container className="dir-card">
-              <img src={RNJoshi} />
-              <h5>Dr. R. N. Joshi</h5>
-              <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p>
+              <img src={TNPLogo} />
+              <h5>Training and Placement Incharge</h5>
+              {/* <p className="dir-subtext">Dean (Industry Liaison) and I/C TPO</p> */}
               <center>
                 <hr />
               </center>
@@ -124,9 +126,10 @@ export default function Director() {
                   <p className="closing">
                     Warm Regards
                     <br />
-                    Dr Ravindra Joshi
-                    <br />
-                    Dean (Industry Liaison) and In-charge TPO
+                    Training & Placement Cell,
+                    {/* Dr Ravindra Joshi */}
+                    {/* <br /> */}
+                    {/* Dean (Industry Liaison) and In-charge TPO */}
                     <br />
                     SGGSIE&T, Nanded
                   </p>

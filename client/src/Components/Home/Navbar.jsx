@@ -45,7 +45,7 @@ export default function Navbar() {
           <BSNavbar.Brand id="navbar-brand" href="/">
             <img className="logo-img" src={SGGSLogo} alt="" />
             <span className="divider"></span>
-            {/* <img className="logo-img" src={TNPLogo} alt="" /> */}
+            <img className="logo-img logo-mobile" src={TNPLogo} alt="" />
             &nbsp;
             <div className="logo-text">
               SHRI GURU GOBIND SINGHJI INSTITUTE OF ENGINEERING & TECHNOLOGY{" "}

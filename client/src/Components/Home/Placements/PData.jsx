@@ -122,7 +122,7 @@ export const y2122 = [
 
 //prettier-ignore
 export const yearwiseSummary = [
-  {"Year": "2023 Till date", "BTech on roll": 753, "BTech placed": 150, "MTech on roll": 44, "MTech placed": 0, "Total placed": 150, "Average Package (LPA)": "5.3 LPA", "Package Range (LPA)": "3.36 - 10.7 LPA" },
+  {"Year": "2022-23", "BTech on roll": 753, "BTech placed": 470, "MTech on roll": 44, "MTech placed": 0, "Total placed": 150, "Average Package (LPA)": "6.2 LPA", "Package Range (LPA)": "2.2 - 60 LPA" },
   {"Year": "2021-22", "BTech on roll": 772, "BTech placed": 412, "MTech on roll": 91, "MTech placed": 19, "Total placed": 431, "Average Package (LPA)": "4.7 LPA", "Package Range (LPA)": "3.0 - 52 LPA" },
   {"Year": "2020-21", "BTech on roll": 750, "BTech placed": 306, "MTech on roll": 123, "MTech placed": 29, "Total placed": 335, "Average Package (LPA)": "4.0 LPA", "Package Range (LPA)": "3.0 - 18 LPA" },
   {"Year": "2019-20", "BTech on roll": 740, "BTech placed": 239, "MTech on roll": 172, "MTech placed": 12, "Total placed": 251, "Average Package (LPA)": "3.6 LPA", "Package Range (LPA)": "2.16 - 9.8 LPA" },

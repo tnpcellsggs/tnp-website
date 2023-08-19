@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import axios from "axios";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
 
 import Social from "./Social";
@@ -16,15 +18,18 @@ import AboutInfo from "./AboutInfo"; //About
 import Director from "./Director";
 import NewTeam from "./NewTeam"; //NewTeam
 import Team from "./Team";
+import OldTeams from "./OldTeams/OldTeams";
 // import Charts from "./Charts";
 // import Alumni from "./Alumni";
 import Footer from "./Footer";
 import Help from "./Help";
 
+const scrollBehavior = { top: "0", left: "0", behavior: "smooth" };
+
 const Homepage = () => {
   useEffect(() => {
     document.title = "Training & Placement, SGGSIE&T Nanded";
-    window.scrollTo(0, 0);
+    window.scrollTo(scrollBehavior);
 
     const fetchEventList = async () => {
       try {
@@ -53,7 +58,7 @@ const Homepage = () => {
 const AboutUs = () => {
   useEffect(() => {
     document.title = "About Us | SGGS Training & Placement";
-    window.scrollTo(0, 0);
+    window.scrollTo(scrollBehavior);
   }, []);
 
   return (
@@ -91,14 +96,13 @@ const AboutUs = () => {
 const ContactUs = () => {
   useEffect(() => {
     document.title = "Contact Us | SGGS Training & Placement";
-    window.scrollTo(0, 0);
+    window.scrollTo(scrollBehavior);
   }, []);
 
   return (
     <>
       <h1 class="homepage-headings">Contact Us</h1>
       <NewTeam />
-      <Team />
     </>
   );
 };
@@ -109,7 +113,7 @@ export default function Home() {
 
   useEffect(() => {
     document.title = "Training & Placement Cell, SGGSIE&T Nanded";
-    window.scrollTo(0, 0);
+    window.scrollTo(scrollBehavior);
     window.addEventListener("scroll", buttonDisplay);
   }, []);
 
@@ -136,6 +140,7 @@ export default function Home() {
         <Route path="/events" element={<Events />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
+        {/* <Route path="/contactus/previous" element={<OldTeams />} /> */}
         {/* <Route path="/gethelp" element={<Help />} /> */}
       </Routes>
       <ToTop buttonStatus={isButtonHidden} scrollFunction={scrollToTop} />
@@ -151,7 +156,7 @@ const ToTop = (props) => {
         className={props.buttonStatus ? "totophidden" : "totopbtn"}
         onClick={props.scrollFunction}
       >
-        ^
+        <FontAwesomeIcon icon={faAnglesUp} />
       </button>
     </div>
   );

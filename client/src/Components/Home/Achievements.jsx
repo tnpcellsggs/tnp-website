@@ -13,6 +13,7 @@ import "swiper/css/scrollbar";
 
 import Amazon from "../../img/Posters2223/Amazon.png";
 import Bitwise from "../../img/Posters2223/BITWISE.png";
+import CERN from "../../img/Posters2223/cern.png";
 import Centiro from "../../img/Posters2223/Centiro.png";
 import Cognologix from "../../img/Posters2223/COGNOLOGIX.png";
 // import EnH from "../../img/Posters2223/e&h.png";
@@ -27,7 +28,8 @@ import Sarvaha from "../../img/Posters2223/Sarvaha.png";
 import Scandid from "../../img/Posters2223/SCANDID.png";
 import TCS from "../../img/Posters2223/TCS DIGITAL.png";
 import Tejas from "../../img/Posters2223/TEJAS NETWORK.png";
-import TIAA from "../../img/Posters2223/TIAA.png";
+// import TIAA from "../../img/Posters2223/TIAA.png";
+import Trident2 from "../../img/Posters2223/TRIDENT.png";
 import Trident from "../../img/Posters2223/Trident Group.png";
 
 const Carousel = () => {
@@ -44,13 +46,16 @@ const Carousel = () => {
       pagination={{ clickable: true }}
     >
       <SwiperSlide>
+        <img src={CERN} style={{ width: "100%" }} alt="Poster" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={Trident2} style={{ width: "100%" }} alt="Poster" />
+      </SwiperSlide>
+      <SwiperSlide>
         <img src={Microsoft} style={{ width: "100%" }} alt="Poster 1" />
       </SwiperSlide>
       <SwiperSlide>
         <img src={Amazon} style={{ width: "100%" }} alt="Poster 3" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={TIAA} class="d-block w-100" alt="Poster 3" />
       </SwiperSlide>
       <SwiperSlide>
         <img src={Tejas} class="d-block w-100" alt="Poster 4" />

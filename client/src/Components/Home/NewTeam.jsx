@@ -2,7 +2,9 @@ import React from "react";
 
 import RNJoshi from "../../img/rnjoshi-sir.png";
 import YVJoshi from "../../img/joshi sir.jpg";
+// import MBKokare from "../../img/kokare-sir.jpeg";
 import IGavakhore from "../../img/ishwar-sir.jpg";
+import TNPLogo from "../../img/TNP LOGO.png";
 
 import RajatV from "../../img/team/rajatv.jpg";
 import SakshiM from "../../img/team/sakshim.jpg";
@@ -28,6 +30,8 @@ import SanskrutiM from "../../img/team/sanskrutim.jpg";
 import SwapnaliN from "../../img/team/swapnalin.jpg";
 import VyankateshK from "../../img/team/vyankateshk.jpg";
 import YashK from "../../img/team/yashk.jpg";
+import SainathY from "../../img/team/sainathy.jpg";
+import MohitC from "../../img/team/mohitc.jpg";
 
 import Hexagons from "../../img/hexagons.png";
 
@@ -36,6 +40,7 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const HeadCard = (props) => {
   return (
@@ -58,6 +63,13 @@ const HeadCard = (props) => {
               <p>
                 <FontAwesomeIcon icon={faEnvelope} /> :{" "}
                 <a href={`mailto:${props.mail}`}>{props.mail}</a>
+                {props.mail2 ? (
+                  <>
+                    , <a href={`mailto:${props.mail2}`}>{props.mail2}</a>
+                  </>
+                ) : (
+                  <></>
+                )}
               </p>
             </div>
           </Col>
@@ -106,29 +118,33 @@ export default function NewTeam() {
           <img src={Hexagons} alt="" />
         </div>
         <HeadCard
-          img={YVJoshi}
-          name="Dr. Yashwant Joshi"
-          designation="Director"
-          tel="02462-229234"
-          mail="director@sggs.ac.in"
+          img={TNPLogo}
+          name="Training & Placement Office"
+          //designation="Director"
+          tel="02462-269181"
+          mail="tpo@sggs.ac.in"
+          mail2="tnpcell@sggs.ac.in"
         />
-        <HeadCard
+        {/* <HeadCard
           img={RNJoshi}
           name="Dr. Ravindra Joshi"
           designation="Dean (Industry Liaison), I/C TPO"
           tel="+91 75884 28778"
           mail="tpo@sggs.ac.in"
-        />
-        <HeadCard
+        /> */}
+        {/* <HeadCard
           img={IGavakhore}
           name="Mr. Ishwar Gavakhore"
           designation="Training & Placement Office Assistant"
           tel="+91 75078 77206"
           mail="tnpcell@sggs.ac.in"
-        />
+        /> */}
       </div>
       <div className="st-team">
-        <h2 className="text-center team-main-text new-font">
+        <h2
+          className="text-center team-main-text new-font"
+          style={{ marginTop: "20px" }}
+        >
           OUR STUDENTS TEAM (22-23)
         </h2>
         <div className="st-team-container">
@@ -156,20 +172,20 @@ export default function NewTeam() {
           <div className="st-team-group">
             <h3>HR Executives</h3>
             <div className="st-team-contents">
-              <TeamCard
+              {/* <TeamCard
                 img={AditiS}
                 name="Aditi Shahade"
                 designation="HR Executive"
                 phone="7620223067"
                 mail="2020bch008@sggs.ac.in"
                 lin="https://www.linkedin.com/in/aditi-shahade-52885a241"
-              />
+              /> */}
               <TeamCard
                 img={DhirajC}
                 name="Dhiraj Chavan"
                 designation="HR Executive"
                 phone="9511837705"
-                mail=""
+                mail="2020bec073@sggs.ac.in"
                 lin=""
               />
               <TeamCard
@@ -186,26 +202,34 @@ export default function NewTeam() {
             <h3>DBMS Executives</h3>
             <div className="st-team-contents">
               <TeamCard
-                img={AjinkyaD}
-                name="Ajinkya Deshmukh"
-                designation="DBMS & Media Executive"
-                phone="9146317556"
-                mail="2020bec068@sggs.ac.in"
-                lin="https://www.linkedin.com/in/ajinkya-deshmukh-03b303213"
+                img={MohitC}
+                name="Mohit Choundiye"
+                designation="DBMS Executive"
+                phone="7083353406"
+                mail="2020bce063@sggs.ac.in"
+                lin="https://www.linkedin.com/in/mohit-choundiye-79aaa5240"
               />
-              <TeamCard
+              {/* <TeamCard
                 img={GauravP}
                 name="Gaurav Patil"
                 designation="DBMS & Placement Drive Executive"
                 phone="9322949096"
                 mail="2020bel019@sggs.ac.in"
                 lin="https://www.linkedin.com/in/gaurav-patil-4a0110169"
-              />
+              /> */}
             </div>
           </div>
           <div className="st-team-group">
             <h3>Placement Drive Executives</h3>
             <div className="st-team-contents">
+              <TeamCard
+                img={SwapnaliN}
+                name="Swapnali Nikam"
+                designation="Departmental Coordinator (Civil) & Placement Drive Executive"
+                phone="7414982096"
+                mail="2020bce059@sggs.ac.in"
+                lin="https://www.linkedin.com/in/swapnali-nikam-22941a243"
+              />
               <TeamCard
                 img={VaishnaviU}
                 name="Vaishnavi Urmunge"
@@ -214,27 +238,27 @@ export default function NewTeam() {
                 mail="2020bel006@sggs.ac.in"
                 lin="https://www.linkedin.com/in/vaishnavi-urmunge-5b0ab4228"
               />
-              <TeamCard
+              {/* <TeamCard
                 img={GauravP}
                 name="Gaurav Patil"
                 designation="Placement Drive & DBMS Executive"
                 phone="9322949096"
                 mail="2020bel019@sggs.ac.in"
                 lin="https://www.linkedin.com/in/gaurav-patil-4a0110169"
-              />
+              /> */}
             </div>
           </div>
           <div className="st-team-group">
             <h3>Media Executives</h3>
             <div className="st-team-contents">
-              <TeamCard
+              {/* <TeamCard
                 img={AjinkyaD}
                 name="Ajinkya Deshmukh"
                 designation="Media & DBMS Executive"
                 phone="9146317556"
                 mail="2020bec068@sggs.ac.in"
                 lin="https://www.linkedin.com/in/ajinkya-deshmukh-03b303213"
-              />
+              /> */}
               <TeamCard
                 img={AmodM}
                 name="Amod Manjarekar"
@@ -258,6 +282,14 @@ export default function NewTeam() {
                 phone="7620965567"
                 mail="2020bcs077@sggs.ac.in"
                 lin="https://www.linkedin.com/in/pranav-umak-8b565b213"
+              />
+              <TeamCard
+                img={SainathY}
+                name="Sainath Yeotikar"
+                designation="Media Executive"
+                phone="9405514811"
+                mail="2020bin012@sggs.ac.in"
+                lin="https://www.linkedin.com/in/sainath-yeotikar-846641218"
               />
               <TeamCard
                 img={VaishnaviU}
@@ -381,7 +413,7 @@ export default function NewTeam() {
               <TeamCard
                 img={SwapnaliN}
                 name="Swapnali Nikam"
-                designation="Departmental Coordinator (Civil)"
+                designation="Departmental Coordinator (Civil) & Placement Drive Executive"
                 phone="7414982096"
                 mail="2020bce059@sggs.ac.in"
                 lin="https://www.linkedin.com/in/swapnali-nikam-22941a243"
@@ -405,6 +437,11 @@ export default function NewTeam() {
             </div>
           </div>
         </div>
+        {/* <div style={{ marginTop: "40px" }}>
+          <Link to="/contactus/previous">
+            <button className="ui-btn">Previous Teams</button>
+          </Link>
+        </div> */}
       </div>
     </>
   );
