@@ -67,12 +67,18 @@ const data = [
     "Post Graduate": 19,
     Total: 431,
   },
-  // {
-  //   year: "AY 22/23",
-  //   "Under Graduate": 470,
-  //   "Post Graduate": ,
-  //   Total: ,
-  // },
+  {
+    year: "AY 22/23",
+    "Under Graduate": 417,
+    "Post Graduate": 0,
+    Total: 417,
+  },
+  {
+    year: "AY 23/24",
+    "Under Graduate": 17,
+    "Post Graduate": 0,
+    Total: 17,
+  }
 ];
 
 export default function PGraph() {

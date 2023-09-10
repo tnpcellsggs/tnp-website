@@ -40,6 +40,14 @@ const data = [
     year: "21/22",
     "No. of students": 425,
   },
+  {
+    year: "22/23",
+    "No. of students": 431,
+  },
+  {
+    year: "23/24",
+    "No. of students": 17,
+  },
 ];
 
 export default function Graph() {

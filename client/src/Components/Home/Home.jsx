@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
@@ -16,13 +16,16 @@ import Placements from "./Placements/Placements";
 import Events from "./Events/Events";
 import AboutInfo from "./AboutInfo"; //About
 import Director from "./Director";
-import NewTeam from "./NewTeam"; //NewTeam
-import Team from "./Team";
-import OldTeams from "./OldTeams/OldTeams";
+import NewTeam_23_24 from "./NewTeam_23_24"; //NewTeam 23-24
+// import NewTeam from "./NewTeam"; //NewTeam 22-23
+
+
+// import Team from "./Team";
+// import OldTeams from "./OldTeams/oldTeamsTab";
 // import Charts from "./Charts";
 // import Alumni from "./Alumni";
 import Footer from "./Footer";
-import Help from "./Help";
+// import Help from "./Help";
 
 const scrollBehavior = { top: "0", left: "0", behavior: "smooth" };
 
@@ -63,7 +66,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <h1 class="homepage-headings">About Us</h1>
+      <h1 className="homepage-headings">About Us</h1>
       <AboutInfo />
       <Director />
       <center>
@@ -101,8 +104,9 @@ const ContactUs = () => {
 
   return (
     <>
-      <h1 class="homepage-headings">Contact Us</h1>
-      <NewTeam />
+      <h1 className="homepage-headings">Contact Us</h1>
+      {/* <NewTeam /> */}
+      <NewTeam_23_24 />
     </>
   );
 };

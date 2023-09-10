@@ -151,7 +151,7 @@ export default function Footer() {
           </Col>
         </Row>
         <div className="copyright">
-          copyright @2022 SGGSIE&T. All Rights Reserved.
+          Copyright @2022 SGGSIE&T. All Rights Reserved.
         </div>
       </Container>
 
@@ -159,7 +159,7 @@ export default function Footer() {
     <div class="container">
       <div class="sec aboutus">
         <h2>About Us</h2>
-        <p> This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends. 
+        <p> This is one of the prestigious institutes in the state of Maharashtra. This institute provides you the opportunities to empower you with the present technologies. The faculty in the institute is ever enthusiastic to familiarize the students in future technology trends.
         </p>
 
         <ul class="sci">
