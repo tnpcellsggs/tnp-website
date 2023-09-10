@@ -11,7 +11,7 @@ export default function Counts() {
             <Stack id="count-center">
               <CountUp
                 className="counterNum"
-                end={431}
+                end={434}
                 duration={3}
                 useEasing={true}
               />
@@ -22,7 +22,7 @@ export default function Counts() {
             <Stack id="count-center">
               <CountUp
                 className="counterNum"
-                end={600}
+                end={499}
                 duration={3}
                 useEasing={true}
               />
@@ -33,7 +33,7 @@ export default function Counts() {
             <Stack id="count-center">
               <CountUp
                 className="counterNum"
-                end={70}
+                end={84}
                 duration={3}
                 useEasing={true}
               />
@@ -49,7 +49,7 @@ export default function Counts() {
         <div className="row counters">
 
             <div className="col-lg-3 col-6 text-center">
-                {/* <div className="counterNum" id="placementsCounter" maxcount="200">0</div> 
+                {/* <div className="counterNum" id="placementsCounter" maxcount="200">0</div>
                 <CountUp className="counterNum" end={2000} duration={1.5} useEasing={true} />
                 <p>Successful Placements</p>
             </div>

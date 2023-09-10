@@ -8,6 +8,8 @@ import {
   y1920,
   y2021,
   y2122,
+  y2223,
+  y2324
 } from "./PData.jsx";
 import { Container } from "react-bootstrap";
 
@@ -28,6 +30,8 @@ export default function PList() {
           Year-wise Placement Record{" "}
           <span style={{ fontSize: "15px" }}>(Click to expand)</span>
         </h3>
+        <YearData label="2023-2024" senddata={y2324} />
+        <YearData label="2022-2023" senddata={y2223} />
         <YearData label="2021-2022" senddata={y2122} />
         <YearData label="2020-2021" senddata={y2021} />
         <YearData label="2019-2020" senddata={y1920} />
