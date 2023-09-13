@@ -12,7 +12,7 @@ export default function Hero() {
             Nanded
           </p>
         </div>
-        <Container className="hero-list" md={2}>
+        {/* <Container className="hero-list" md={2}>
           <Stack gap={2} className="main">
             <Button className='cus-btn'><Link className="btn-inside" to="/stlogin">Student</Link> </Button>
             <Button className='cus-btn'>Recruiter</Button>
@@ -24,9 +24,9 @@ export default function Hero() {
             <Button className='cus-btn'>Current Drives</Button>
             <Button className='cus-btn'>Internship</Button>
           </Stack>
-        </Container>
+        </Container> */}
       </Container>
-      <section id="hero" className="d-flex justify-content-center align-items-center">
+      {/* <section id="hero" className="d-flex justify-content-center align-items-center">
         <div className="container position-relative grid-box" data-aoos="zoom-in" data-aoos-delay="100">
 
           <div className="login-section mt-5">
@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
 
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

@@ -107,6 +107,11 @@ const TeamCard = (props) => {
 };
 
 export default function NewTeam_23_24() {
+
+  // function changeCall(){
+  //   return true;
+  // }
+
   return (
     <>
       <div className="head-container">
@@ -118,9 +123,9 @@ export default function NewTeam_23_24() {
         </div>
 
          {/* button for previous teams */}
-         <div style={{ marginTop: "40px" }}>
-          <Link to="../"><button className="ui-btn">Previous Teams</button></Link>
-        </div>
+         {/* <div style={{ marginTop: "40px" }}>
+          <Link to="./Home/OldTeams/Team22_23"><button id="prevBtn" className="ui-btn">Previous Teams</button></Link>
+        </div> */}
 
         <HeadCard
           img={TNPLogo}
