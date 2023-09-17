@@ -4,7 +4,7 @@ export default function AboutInfo() {
   return (
     <>
       <p className="about-info-box">
-        <p>
+        <span>
           Welcome to the Industry Liaison one-stop office which takes care of
           (a) Institute-Industry Liaison, (b) Institute-Alumni Liaison, and (c)
           Training and Placement activities.
@@ -15,7 +15,7 @@ export default function AboutInfo() {
           Our aim is to realize the dreams of students, parents, and society in
           general. The most important one is to make our students "engineers"
           who would be able to contribute to the society.
-        </p>
+        </span>
         Our team has following functions and responsibilities:
         <ul>
           <li>

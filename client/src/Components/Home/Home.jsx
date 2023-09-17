@@ -63,7 +63,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <h1 class="homepage-headings">About Us</h1>
+      <h1 className="homepage-headings">About Us</h1>
       <AboutInfo />
       <Director />
       <center>
@@ -101,7 +101,7 @@ const ContactUs = () => {
 
   return (
     <>
-      <h1 class="homepage-headings">Contact Us</h1>
+      <h1 className="homepage-headings">Contact Us</h1>
       <NewTeam_23_24 />
     </>
   );

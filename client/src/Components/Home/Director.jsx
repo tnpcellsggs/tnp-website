@@ -2,9 +2,9 @@ import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-import RNJoshi from "../../img/RN joshi sir 3.jpg";
-import YVJoshi from "../../img/joshi sir.jpg";
-import ARPatil from "../../img/arpatil-sir.jpeg";
+// import RNJoshi from "../../img/RN joshi sir 3.jpg";
+// import YVJoshi from "../../img/joshi sir.jpg";
+// import ARPatil from "../../img/arpatil-sir.jpeg";
 import MBKokare from "../../img/kokare-sir.jpeg";
 import TNPLogo from "../../img/TNP LOGO.png";
 
