@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
@@ -36,7 +36,7 @@ const Homepage = () => {
         let res = await axios.get(
           `${process.env.REACT_APP_REQURL}/admin/events/getall/`
         );
-        console.log("Server online!");
+        // console.log("Server online!");
       } catch (err) {
         console.log(err);
       }
@@ -161,3 +161,6 @@ const ToTop = (props) => {
     </div>
   );
 };
+
+
+// @media only screen(max-width:295px)
