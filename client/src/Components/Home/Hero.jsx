@@ -1,7 +1,7 @@
 // import react from "react";
 import React from "react";
-import { Link } from "react-router-dom";
-import { Container, Stack, Button, Col } from "react-bootstrap";
+// import { Link } from "react-router-dom";
+import { Container} from "react-bootstrap";
 export default function Hero() {
   return (
     <>

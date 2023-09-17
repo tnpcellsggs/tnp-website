@@ -58,49 +58,49 @@ const Carousel = () => {
         <img src={Amazon} style={{ width: "100%" }} alt="Poster 3" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Tejas} class="d-block w-100" alt="Poster 4" />
+        <img src={Tejas} className="d-block w-100" alt="Poster 4" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Trident} class="d-block w-100" alt="Poster 11" />
+        <img src={Trident} className="d-block w-100" alt="Poster 11" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Iauro} class="d-block w-100" alt="Poster 5" />
+        <img src={Iauro} className="d-block w-100" alt="Poster 5" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={RSL1} class="d-block w-100" alt="Poster 6" />
+        <img src={RSL1} className="d-block w-100" alt="Poster 6" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={RSL2} class="d-block w-100" alt="Poster 7" />
+        <img src={RSL2} className="d-block w-100" alt="Poster 7" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Sarvaha} class="d-block w-100" alt="Poster 8" />
+        <img src={Sarvaha} className="d-block w-100" alt="Poster 8" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={TCS} class="d-block w-100" alt="Poster 9" />
+        <img src={TCS} className="d-block w-100" alt="Poster 9" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Cognologix} class="d-block w-100" alt="Poster 10" />
+        <img src={Cognologix} className="d-block w-100" alt="Poster 10" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Kratin} class="d-block w-100" alt="Poster 17" />
+        <img src={Kratin} className="d-block w-100" alt="Poster 17" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Bitwise} class="d-block w-100" alt="Poster 12" />
+        <img src={Bitwise} className="d-block w-100" alt="Poster 12" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Centiro} class="d-block w-100" alt="Poster 13" />
+        <img src={Centiro} className="d-block w-100" alt="Poster 13" />
       </SwiperSlide>
       {/* <SwiperSlide>
-        <img src={EnH} class="d-block w-100" alt="Poster 14" />
+        <img src={EnH} className="d-block w-100" alt="Poster 14" />
       </SwiperSlide> */}
       <SwiperSlide>
-        <img src={Elastik} class="d-block w-100" alt="Poster 15" />
+        <img src={Elastik} className="d-block w-100" alt="Poster 15" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Infinichains} class="d-block w-100" alt="Poster 16" />
+        <img src={Infinichains} className="d-block w-100" alt="Poster 16" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={Scandid} class="d-block w-100" alt="Poster 16" />
+        <img src={Scandid} className="d-block w-100" alt="Poster 16" />
       </SwiperSlide>
     </Swiper>
   );
