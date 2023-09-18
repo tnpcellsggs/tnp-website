@@ -8,7 +8,8 @@ import TNPLogo from "../../img/TNP LOGO.png";
 
 import SharvariS from "../../img/team2023_2024/2_SHARVARI-MILIND-SALODKAR.jpg";
 import RoshanV from "../../img/team2023_2024/Roshan-Vishwakarma.jpg";
-import Mrunal from "../../img/team2023_2024/2_2Mrunal-Yashwant-Dhuware.jpg";
+// import Mrunal from "../../img/team2023_2024/2_2Mrunal-Yashwant-Dhuware.jpg";
+import Mrunal from "../../img/team2023_2024/_2_2new_Mrunal-Yashwant-Dhuware.jpg";
 import OmSaiM from "../../img/team2023_2024/2_OMSAI-SANTOSH-MUTYALWAR.jpg";
 import ShreyasH from "../../img/team2023_2024/2_2SHREYASH_SUNILRAO_HOLEY.jpeg";
 import SharayuM from "../../img/team2023_2024/2_2SHARAYU-PURUSHOTTAM-MEGHARE.jpg";
