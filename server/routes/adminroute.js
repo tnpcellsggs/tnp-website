@@ -10,8 +10,8 @@ router.post("/", async (req, res) => {
 
     res.status(200).json(admin);
   } catch (err) {
-    // console.log(err);
-    // res.status(500).json(err);
+    console.log(err);
+    res.status(500).json(err);
   }
 });
 
