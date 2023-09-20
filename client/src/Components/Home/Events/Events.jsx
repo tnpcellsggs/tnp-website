@@ -66,6 +66,7 @@ function Events() {
       ) : (
         <div>
           {eventsList.map((i) => {
+            console.log(i);
             return (
               <>
                 <EPast
